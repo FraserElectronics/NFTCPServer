@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>nanoFramework.Hardware.Stm32</name>
+    </assembly>
+    <members>
+        <member name="T:nanoFramework.Hardware.Stm32.BackupMemory">
+            <summary>
+            Provides access to STM32 backup registers.
+            </summary>
+        </member>
+        <member name="P:nanoFramework.Hardware.Stm32.BackupMemory.Size">
+            <summary>
+            Gets the size of the backup memory on the current target.
+            </summary>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteBoolean(System.UInt32,System.Boolean)">
+            <summary>
+            Writes a Boolean value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteByte(System.UInt32,System.Byte)">
+            <summary>
+            Writes a byte value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteDateTime(System.UInt32,System.DateTime)">
+            <summary>
+            Writes a date and time value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteInt16(System.UInt32,System.Int16)">
+            <summary>
+            Writes a 16-bit integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteInt32(System.UInt32,System.Int32)">
+            <summary>
+            Writes a 32-bit integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteInt64(System.UInt32,System.Int64)">
+            <summary>
+            Writes a 64-bit integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteSingle(System.UInt32,System.Single)">
+            <summary>
+            Write a floating-point value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteString(System.UInt32,System.String)">
+            <summary>
+            Writes a string value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteTimeSpan(System.UInt32,System.TimeSpan)">
+            <summary>
+            Writes a time interval value to the output stream.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteUInt16(System.UInt32,System.UInt16)">
+            <summary>
+            Writes a 16-bit unsigned integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteUInt32(System.UInt32,System.UInt32)">
+            <summary>
+            Writes a 32-bit unsigned integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteUInt64(System.UInt32,System.UInt64)">
+            <summary>
+            Writes a 64-bit unsigned integer value to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadBoolean(System.UInt32)">
+            <summary>
+            Reads a Boolean value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadByte(System.UInt32)">
+            <summary>
+            Reads a byte value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadDateTime(System.UInt32)">
+            <summary>
+            Reads a date and time value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadInt16(System.UInt32)">
+            <summary>
+            Reads a 16-bit integer value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadInt32(System.UInt32)">
+            <summary>
+            Reads a 32-bit integer value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadInt64(System.UInt32)">
+            <summary>
+            Reads a 64-bit integer value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadSingle(System.UInt32)">
+            <summary>
+            Reads a floating-point value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadString(System.UInt32,System.UInt32)">
+            <summary>
+            Reads a string value from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <param name="lenght">The length of the string.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadTimeSpan(System.UInt32)">
+            <summary>
+            Reads a time interval from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadUInt16(System.UInt32)">
+            <summary>
+            Reads a 16-bit unsigned integer from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadUInt32(System.UInt32)">
+            <summary>
+            Reads a 32-bit unsigned integer from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadUInt64(System.UInt32)">
+            <summary>
+            Reads a 64-bit unsigned integer from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.ReadBytes(System.UInt32,System.Byte[])">
+            <summary>
+            Reads an array of byte values from the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to read from.</param>
+            <param name="value">The array of values.</param>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.BackupMemory.WriteBytes(System.UInt32,System.Byte[])">
+            <summary>
+            Writes an array of byte values to the backup memory.
+            </summary>
+            <param name="position">Position on the backup memory to write the <paramref name="value"/>.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="T:nanoFramework.Hardware.Stm32.Power">
+            <summary>
+            Provides methods to control power mode of the target CPU.
+            </summary>
+            <remarks>
+            This API is available only for SMT32 targets.
+            </remarks>
+        </member>
+        <member name="T:nanoFramework.Hardware.Stm32.Power.WakeupPin">
+            <summary>
+            Wake-up pin enumeration.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupPin.Pin1">
+            <summary>
+            Wake-up pin 1.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupPin.Pin2">
+            <summary>
+            Wake-up pin 2.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupPin.Pin3">
+            <summary>
+            Wake-up pin 3.
+            </summary>
+        </member>
+        <member name="T:nanoFramework.Hardware.Stm32.Power.WakeupReasonType">
+            <summary>
+            Wakeup reason enumeration.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupReasonType.Undetermined">
+            <summary>
+            Undetermined wakeup reason.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupReasonType.FromStandby">
+            <summary>
+            Wakeup from standby mode.
+            </summary>
+        </member>
+        <member name="F:nanoFramework.Hardware.Stm32.Power.WakeupReasonType.FromPin">
+            <summary>
+            Wakeup from pin.
+            </summary>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.Power.EnterStandbyMode">
+            <summary>
+            Sets the target device to enter STM32 "standby" mode.
+            </summary>
+            <remarks>
+            If no wakeup sources configured then it will be a indefinite sleep.
+            This call never returns.
+            After the device enters standby a wakeup source will wake the device and the execution will start as if it was a reset.
+            Keep in mind that the execution WILL NOT continue after the call to this method.
+            </remarks>
+        </member>
+        <member name="P:nanoFramework.Hardware.Stm32.Power.WakeupReason">
+            <summary>
+            Gets the reason for device wakeup.
+            </summary>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.Power.DisableWakeupPin(nanoFramework.Hardware.Stm32.Power.WakeupPin)">
+            <summary>
+            Disables the specified <paramref name="pin"/> as wake-up source.
+            </summary>
+            <remarks>
+            The wake-up pin availability is target dependent. Check the target device data-sheet for details.
+            If the specified pin is not available an <see cref="T:System.ArgumentException"/> is  thrown.
+            </remarks>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.Power.EnableWakeupPin(nanoFramework.Hardware.Stm32.Power.WakeupPin)">
+            <summary>
+            Enables the specified <paramref name="pin"/> as wake-up source.
+            </summary>
+            <remarks>
+            The wake-up pin availability is target dependent. Check the target device data-sheet for details.
+            If the specified pin is not available an <see cref="T:System.ArgumentException"/> is  thrown.
+            </remarks>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.Power.NativeEnterStandbyMode">
+            <summary>
+            Sets the target device to enter STM32 "standby" mode.
+            </summary>
+        </member>
+        <member name="T:nanoFramework.Hardware.Stm32.RTC">
+            <summary>
+            Provides access to RTC (real time clock) features.
+            </summary>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.RTC.SetAlarm(System.DateTime)">
+            <summary>
+            Sets the <see cref="T:System.DateTime"/> for the alarm.
+            This will wake-up the target device if it's in sleep or power down mode.
+            </summary>
+            <param name="time">Time to set.</param>
+            <remarks>
+            If target device has more than one alarm. This will set Alarm A.
+            </remarks>
+        </member>
+        <member name="M:nanoFramework.Hardware.Stm32.RTC.GetAlarm">
+            <summary>
+            Gets the <see cref="T:System.DateTime"/> set for the alarm.
+            </summary>
+            <returns>
+            Return the current <see cref="T:System.DateTime"/> set for the alarm.
+            </returns>
+            <remarks>
+            If target device has more than one alarm. This is the value of Alarm A.
+            </remarks>
+        </member>
+        <member name="T:nanoFramework.Hardware.Stm32.Utilities">
+            <summary>
+            Utilities for managing and handling STM32 target devices.
+            </summary>
+        </member>
+        <member name="P:nanoFramework.Hardware.Stm32.Utilities.UniqueDeviceId">
+            <summary>
+            Gets the 96 bits unique device ID.
+            </summary>
+        </member>
+        <member name="P:nanoFramework.Hardware.Stm32.Utilities.DeviceId">
+            <summary>
+            Gets the device identifier.
+            </summary>
+        </member>
+        <member name="P:nanoFramework.Hardware.Stm32.Utilities.DeviceRevisionId">
+            <summary>
+            Gets the device revision identifier.
+            </summary>
+        </member>
+    </members>
+</doc>
